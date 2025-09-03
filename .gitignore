@@ -9,7 +9,7 @@
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
-
+target/classes/firebase-service-account.json
 ### Java ###
 # Compiled class file
 *.class
