@@ -17,7 +17,7 @@ public class FirebaseConfig {
         if (FirebaseApp.getApps().isEmpty()) {
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(
-                            new ClassPathResource("firebase-service-account.json").getInputStream()
+                            new ClassPathResource("firebase/firebase-service-account.json").getInputStream()
                     ))
                     .build();
 
