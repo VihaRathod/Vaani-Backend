@@ -13,6 +13,7 @@ target/classes/firebase-service-account.json
 ### Java ###
 # Compiled class file
 *.class
+src/main/resources/firebase-service-account.json
 
 # Log file
 *.log
